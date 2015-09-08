@@ -13,7 +13,7 @@ else
     color="${not_root_color}"
 fi
 #строка приглашения bash
-PS1="\[\e[1;36m\][${color}\u\[\e[0;35m\]@\h\[\e[1;33m\]\w\[\e[1;36m\]]\[\e[0m\]${color}\\$\[\e[0m\] "
+PS1="\[\e[1;36m\][${color}\u\[\e[0;33m\]@\h\[\e[1;35m\]\w\[\e[1;36m\]]\[\e[0m\]${color}\\$\[\e[0m\] "
 
 #Алиасы для раскраски вывода команд с помощью grc.
 alias ping='grc ping'
