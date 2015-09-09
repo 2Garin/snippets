@@ -1,8 +1,3 @@
-# ПРИМЕР импорта в .bashrc
-#if [ -f /home/user/repos/.bashrc ]; then
-#    source /home/user/repos/.bashrc
-#fi
-
 #Раскрашивание консоли
 root_color="\[\e[7;31m\]"
 not_root_color="\[\e[1;32m\]"
