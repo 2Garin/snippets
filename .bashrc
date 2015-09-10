@@ -1,6 +1,6 @@
 #Раскрашивание консоли
 root_color="\[\e[7;31m\]"
-not_root_color="\[\e[1;32m\]"
+not_root_color="\[\e[0;36m\]"
 #Считываем eUID пользователя. Цвета в зав-ти рут или не рут
 if [ `id -u` -eq "0" ]; then
     color="${root_color}"
@@ -8,7 +8,7 @@ else
     color="${not_root_color}"
 fi
 #строка приглашения bash
-PS1="\[\e[1;36m\][${color}\u\[\e[0;33m\]@\h\[\e[1;35m\]\w\[\e[1;36m\]]\[\e[0m\]${color}\\$\[\e[0m\] "
+PS1="${color}\u\[\e[0;35m\]@\[\e[0;33m\]\h\[\e[0;32m\]\w\[\e[0m\]${color}\\$\[\e[0m\] "
 
 #Алиасы для раскраски вывода команд с помощью grc.
 alias ping='grc ping'
