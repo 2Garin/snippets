@@ -6,3 +6,5 @@
 **LinuxJavaFixes.sh** - добавляет в конфиги продуктов от JetBrains строку с подключением либы, 
 исправляющей клавиатурные сочетания на русской раскладке 
 (нужен репозиторий [LinuxJavaFixes](https://github.com/zheludkovm/LinuxJavaFixes))
+
+**MySQL.md** - заметки по MySQL
