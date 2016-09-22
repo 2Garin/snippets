@@ -29,3 +29,4 @@ alias upd='sudo aptitude update && sudo aptitude upgrade && sudo aptitude clean 
 alias g="git"
 alias s="g status -s"
 alias gp="g pull"
+alias gl='g log --pretty=format:"%h - %cd : %s" --graph'
