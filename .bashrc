@@ -12,6 +12,7 @@ PS1="${color}\u\[\e[0;35m\]@\[\e[0;33m\]\h\[\e[0;32m\]\w\[\e[0m\]${color}\\$\[\e
 
 #Алиасы для раскраски вывода команд с помощью grc.
 alias ping='grc ping'
+alias ping6='grc ping6'
 alias traceroute='grc traceroute'
 alias make='grc make'
 alias diff='grc diff'
