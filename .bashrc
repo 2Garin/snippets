@@ -26,6 +26,11 @@ alias less='less --RAW-CONTROL-CHARS'
 #обновление списка пакетов и самих пакетов одной командой
 alias upd='sudo aptitude update && sudo aptitude upgrade && sudo aptitude clean && sudo aptitude autoclean'
 
+#ф-я для поиска строки в проекте на Yii2
+function gr {
+    grep -HnrF --exclude-dir={.idea,.git,vendor,runtime} $1 .
+}
+
 #git
 alias g="git"
 alias s="g status -s"
