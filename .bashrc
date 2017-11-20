@@ -28,7 +28,7 @@ alias upd='sudo aptitude update && sudo aptitude upgrade && sudo aptitude clean 
 
 #ф-я для поиска строки в проекте на Yii2
 function gr {
-    grep -HnrF --exclude-dir={.idea,.git,vendor,runtime} $1 .
+    grep -HnrF --exclude-dir={.idea,.git,vendor,runtime,rbac} $1 .
 }
 
 #git
