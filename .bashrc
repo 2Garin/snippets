@@ -25,7 +25,7 @@ alias logh='grc head'
 alias less='less --RAW-CONTROL-CHARS'
 
 #обновление списка пакетов и самих пакетов одной командой
-alias upd='sudo aptitude update && sudo aptitude upgrade && sudo aptitude clean && sudo aptitude autoclean'
+alias upd='sudo apt update && sudo apt upgrade && sudo apt clean && sudo apt autoclean'
 
 #ф-я для поиска строки в проекте на Yii2
 function gr {
