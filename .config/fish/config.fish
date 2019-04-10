@@ -19,6 +19,7 @@ alias upd='sudo apt update; sudo apt upgrade; sudo apt clean; sudo apt autoclean
 
 #git
 alias g="git"
+alias gc="g clone"
 alias s="g status -s"
 alias gp="g pull"
 alias gl='g log --pretty=format:"%h - %cd : %s" --graph'
