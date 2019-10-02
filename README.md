@@ -8,3 +8,5 @@
 (нужен репозиторий [LinuxJavaFixes](https://github.com/zheludkovm/LinuxJavaFixes))
 
 **MySQL.md** - заметки по MySQL
+
+**update_all_repo_in_folder.sh** - Обновляет все репозитории находящиеся в текущей папке
